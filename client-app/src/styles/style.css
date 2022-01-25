@@ -1,0 +1,194 @@
+@charset "UTF-8";
+body {
+  color: #325c3a;
+  font-family: Linotte, YuGothic, "Yu Gothic", 游ゴシック体, 游ゴシック, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Roboto, メイリオ, Meiryo, "ＭＳ Ｐゴシック", Osaka, "MS PGothic", Arial, Helvetica, Verdana, sans-serif !important;
+  line-height: 2rem;
+}
+
+main {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: #325c3a;
+}
+
+img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+h2 {
+  font-family: "The Nautigal", cursive;
+  font-size: 3rem;
+}
+
+.header-logo {
+  width: 250px;
+}
+
+.fotter-logo {
+  width: 150px;
+}
+
+.ma {
+  margin-bottom: 300px;
+}
+
+.header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/header1.jpg");
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-size: cover;
+  height: 700px;
+  padding: 10px 30px;
+  margin-bottom: 100px;
+}
+
+.sub-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/header1.jpg");
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  padding: 10px 30px;
+  margin-bottom: 100px;
+}
+
+.about-header-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url("../image/header1.jpg");
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100%;
+  background-size: cover;
+  height: 300px;
+  padding: 10px 30px;
+}
+
+.header-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.header-nav ul li {
+  margin-left: 20px;
+  font-family: "The Nautigal", cursive;
+  font-size: 2rem;
+}
+
+.header-nav ul li a {
+  font-style: none;
+}
+
+.borderline {
+  border-bottom: #325c3a 2px solid;
+  margin: 30px 0;
+}
+
+.about-wrapper {
+  text-align: center;
+}
+
+.next-view {
+  margin: 100px auto;
+  padding: 10px;
+  width: 30%;
+  height: auto;
+  border: #325c3a 1px solid;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.next-view a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-size: 1.25rem;
+}
+
+.main-images {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main-images .main-image {
+  width: 30%;
+}
+
+.collection-wrapper {
+  text-align: center;
+}
+
+.collection-wrapper .collection-images {
+  margin-top: 30px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+}
+
+.collection-wrapper .collection-images .collection-image {
+  width: 100%;
+  height: 350px;
+}
+
+.blog-wrapper {
+  text-align: center;
+}
+
+.blog-wrapper .blog-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.blog-wrapper .blog-images .blogeria {
+  width: 45%;
+  height: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.blog-wrapper .blog-images .blogeria .blog-image {
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #325c3a;
+  padding: 10px;
+}
+/*# sourceMappingURL=style.css.map */
