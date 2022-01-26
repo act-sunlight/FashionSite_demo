@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../styles/style.css";
+import '../styles/style.css';
+import image7 from '../image/image7.jpg'
+import image8 from "../image/IC.jpg";
 
 const About = () => {
   return (
@@ -8,16 +10,16 @@ const About = () => {
       <div className="borderline"></div>
       <section className="blog-images">
         <section className="blogeria">
-          {/* <img src="image/image7.jpg" alt="image7" className="blog-image"> */}
+          <img src={image7} alt="image7" className="blog-image" />
           <h3>新年のご挨拶</h3>
         </section>
         <section className="blogeria">
-          {/* <img src="image/IC.jpg" alt="image2" className="blog-image"> */}
+          <img src={image8} alt="image2" className="blog-image" />
           <h3>2002SS Collection</h3>
         </section>
       </section>
       <div className="next-view">
-        <a href="blog.html">もっと見る</a>
+        <a href="/blog">もっと見る</a>
       </div>
     </section>
   );

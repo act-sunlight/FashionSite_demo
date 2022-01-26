@@ -5,22 +5,22 @@ import logo from "../image/Sunlight//sunlightgradenlogo-w-480.png";
 const Header = () => {
   return (
     <header className="header-wrapper">
-      <a href="index.html">
+      <a href="/">
         <img src={logo} alt="logo" className="header-logo" />
       </a>
       <nav className="header-nav">
         <ul>
           <li>
-            <a href="index.html">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="about.html">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="collection.html">Collection</a>
+            <a href="/collection">Collection</a>
           </li>
           <li>
-            <a href="blog.html">Blog</a>
+            <a href="/blog">Blog</a>
           </li>
         </ul>
       </nav>

@@ -12,7 +12,7 @@ const Collection = () => {
         <Gallery />
       </section>
       <div className="next-view">
-        <a href="collection.html">もっと見る</a>
+        <a href="/collection">もっと見る</a>
       </div>
     </section>
   );
